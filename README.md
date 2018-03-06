@@ -1,4 +1,4 @@
-# ESP32 smoke alarm relay notifier
+# ESP32 smoke alarm notifier
 
 A simple sensor that will publish to a MQTT topic when a relay from a hardwired smoke alarm is triggered.
 
