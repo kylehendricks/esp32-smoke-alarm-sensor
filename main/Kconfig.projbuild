@@ -58,6 +58,12 @@ config PIN_SMOKE_ALARM_RELAY
     help
         The pin that is connected to the smoke alarm relay
 
+config SMOKE_ALARM_PIN_READ_INTERVAL_MS
+    int "Smoke alarm pin read interval"
+    default 100
+    help
+        The interval at which the the status of the smoke alarm relay pin is read
+
 config MQTT_ALARM_TOPIC
     string "MQTT Alarm Topic"
     help
